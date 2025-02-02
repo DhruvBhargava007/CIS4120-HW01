@@ -1,0 +1,113 @@
+
+.hidden {
+    display: none;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 10px;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: 'Fredoka One', 'Galdeano', sans-serif;
+  }
+  
+  .background {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    background: url('Black Thunder Wallpaper.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .temperature {
+    position: absolute;
+    width: 204px;
+    height: 88px;
+    left: 113px;
+    top: 217px;
+    font-size: 150px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .low-temp {
+    position: absolute;
+    left: 88px;
+    top: 318px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .high-temp {
+    position: absolute;
+    left: 317px;
+    top: 318px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .clothing-info {
+    position: absolute;
+    width: 354px;
+    top: 473px;
+    left: 38px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .bottom-bar {
+    position: absolute;
+    width: 393px;
+    height: 46px;
+    left: 18px;
+    top: 788px;
+    background: #212121;
+    border-radius: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .bottom-bar div {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .details {
+    position: absolute;
+    width: 111px;
+    height: 35px;
+    left: 159px;
+    top: 872px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .arrow {
+    position: absolute;
+    width: 33px;
+    height: 17px;
+    left: 195px;
+    top: 924px;
+    background: #4E4E4E;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    transform: rotate(180deg);
+  }

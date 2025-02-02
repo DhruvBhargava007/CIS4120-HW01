@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Galdeano&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page" id="home-page">
+    <div class="background">
+      <div class="temperature">32</div>
+      <div class="low-temp">20</div>
+      <div class="high-temp">40</div>
+      <div class="clothing-info">Based on your Trends you need two layers of clothing</div>
+      <div class="bottom-bar">
+        <div class="nav-item" onclick="showPage('home-page')">Philly</div>
+        <div class="nav-item" onclick="showPage('rain-page')">Rain</div>
+        <div class="nav-item" onclick="showPage('uv-page')">UV</div>
+        <div class="nav-item" onclick="showPage('AQI-page')">AQI</div>
+      </div>
+      <div class="details">Details</div>
+      <div class="arrow"></div>
+    </div>
+  </div>
+
+  <div class="page hidden" id="rain-page">
+    <div class="background">
+      <div class="temperature">70%</div>
+      <div class="clothing-info">Rainfall expected. Stay prepared!</div>
+      <div class="bottom-bar">
+        <div class="nav-item" onclick="showPage('home-page')">Philly</div>
+        <div class="nav-item" onclick="showPage('rain-page')">Rain</div>
+        <div class="nav-item" onclick="showPage('uv-page')">UV</div>
+        <div class="nav-item" onclick="showPage('AQI-page')">AQI</div>
+      </div>
+      <div class="details">Details</div>
+      <div class="arrow"></div>
+    </div>
+  </div>
+
+  <div class="page hidden" id="uv-page">
+    <div class="background">
+      <div class="temperature">5</div>
+      <div class="clothing-info">UV levels moderate. Use sunscreen!</div>
+      <div class="bottom-bar">
+        <div class="nav-item" onclick="showPage('home-page')">Philly</div>
+        <div class="nav-item" onclick="showPage('rain-page')">Rain</div>
+        <div class="nav-item" onclick="showPage('uv-page')">UV</div>
+        <div class="nav-item" onclick="showPage('AQI-page')">AQI</div>
+      </div>
+      <div class="details">Details</div>
+      <div class="arrow"></div>
+    </div>
+  </div>
+
+  <div class="page hidden" id="AQI-page">
+    <div class="background">
+      <div class="temperature">20</div>
+      <div class="clothing-info">All Clear!</div>
+      <div class="bottom-bar">
+        <div class="nav-item" onclick="showPage('home-page')">Philly</div>
+        <div class="nav-item" onclick="showPage('rain-page')">Rain</div>
+        <div class="nav-item" onclick="showPage('uv-page')">UV</div>
+        <div class="nav-item" onclick="showPage('AQI-page')">AQI</div>
+      </div>
+      <div class="details">Details</div>
+      <div class="arrow"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
